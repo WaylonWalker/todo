@@ -1,7 +1,7 @@
 ---
 date: 2022-05-14 09:31:16
 priority: 0
-status: todo
+status: done
 tags:
 - markata
 - None
