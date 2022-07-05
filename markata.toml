@@ -36,13 +36,16 @@ site_version = 1
 default_cache_expire = 1209600
  
 ## Markata Setup
-glob_patterns = "tasks/**/*.md"
+glob_patterns = ["tasks/**/*.md", "pages/**/*.md"]
 hooks = [
     "markata_todoui",
     "default",
    ]
 disabled_hooks = [
 ]
+
+[markata.auto_description.long_description]
+len=250
  
 ## Site Config
 url = "https://todo.example.com"
